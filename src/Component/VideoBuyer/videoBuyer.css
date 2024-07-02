@@ -1,0 +1,26 @@
+.VideoBuyer {
+    background-color: #123557;
+    color: #FFFFFF;
+    display: flex;
+    margin: 0 5vw;
+    padding: 10vh 3vw;
+    gap: 3vw;
+    
+}
+
+.titleOptions {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 2vh 7vw;
+    cursor: pointer;
+}
+
+.titleOptions.active {
+    color: #EB7150;
+    border-bottom: 3px solid #EB7150;
+}
+
+ul.buyer, ul.supplier {
+    list-style-image: url('./checked.png');
+    margin-top: 5vh;
+}

@@ -1,0 +1,30 @@
+.NavBar {
+    width: 100%;
+    display: flex;
+    padding: 2vh 2vw;
+    align-items: center;
+}
+
+.NavBar> img {
+    margin-right: auto ;
+    width: 10vw;
+    min-width: 150px;
+    height: 3vh;
+
+}
+.navContainer {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.navBtn {
+    border: 2px solid #00732F;
+    background-color: #fff;
+    color: #00732F;
+    padding: 1.5vh 2vw;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: large;
+}

@@ -1,0 +1,50 @@
+.helperTitle {
+    background-color: #E8FBFF;
+    width: 100%;
+    padding: 10vh 10vw;
+    display: flex;
+}
+
+.helperBtn {
+    background-color: #EB7150;
+    color: #FFFFFF;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+    padding: 2vh 4vw;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.helperBtn:hover {
+    background-color: #FFFFFF;
+    color: #EB7150;
+    font-weight: 900;
+}
+
+.helperContent {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10vw;
+}
+
+.helperBoxContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-wrap: wrap;
+    text-align: center;
+}
+
+.helperBox {
+    padding: 5vh;
+}
+
+.helperBox:hover {
+    transform: scale(0.8);
+}
+.helperBox:nth-of-type(odd) {
+    background-color: #E8FBFF;
+}
+

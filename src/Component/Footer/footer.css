@@ -1,0 +1,45 @@
+.Footer {
+    background-color: #123557;
+    width: 100%;
+    color: #fff;
+    padding: 5vw 8vw;
+}
+
+.container {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    width: 100%;
+}
+
+.infoContainer {
+    margin-right: auto;
+    margin-left: 3vw;
+}
+
+.infoContainer:first-child img {
+    padding-top: 6vh;
+    background-color: #123557;
+
+}
+
+.infoContainer, .socialContainer {
+    display: flex;
+    gap: 2vw;
+}
+
+.socialContainer {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

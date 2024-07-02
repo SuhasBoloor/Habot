@@ -1,0 +1,59 @@
+.Main {
+    background-image: url('./MainBackground.png');
+    color: #ffffff;
+    width: 100%;
+    aspect-ratio: 5/2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer {
+    text-align: center;
+    gap: 1vw;
+
+}
+
+
+
+.mainForm input{
+    height: 5vh;
+    width: 25vw;
+    font-size: 1em;
+    text-align: center;
+    margin: 10vh 0;
+    border-radius: 5px;
+    margin-right: 1vw;
+}
+
+.mainForm label {
+    position: relative;
+
+}
+
+
+.fa-location-dot, .fa-suitcase {
+    position: absolute;
+    top: 10px;
+    z-index: 999;
+    color: #E7760D;
+    padding: 0.35vh 1vw;
+}
+
+.submitBtn {
+    background-color: #00732F;
+    color: #fff;
+    border: 1px solid #00732F;
+    border-radius: 5px;
+    width: 10vw !important;
+    height: 5vh;
+    padding: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.anchorStyle {
+    color: #ffffff;
+}
